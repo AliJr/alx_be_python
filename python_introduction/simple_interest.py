@@ -1,7 +1,7 @@
-principal=1000
-annual_intrest_rate=0.05
-time_in_years=3
+principal = 1000
+rate = 0.05
+time = 3
 
-intrest_erned=principal*annual_intrest_rate*time_in_years
+interest = principal * rate * time
 
-print("The simple intrest is:",intrest_erned)
+print("The simple intrest is:", interest)
