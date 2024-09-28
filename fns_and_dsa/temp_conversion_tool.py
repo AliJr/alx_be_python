@@ -17,7 +17,7 @@ def main():
     elif temp_type=="F":
         print(current_temp+"°F is",str(convert_to_celsius(float(current_temp)))+"°C")
     else:
-        print("Invalid input")
+        print("Invalid temperature. Please enter a numeric value.")
     
     
 # Run the program
