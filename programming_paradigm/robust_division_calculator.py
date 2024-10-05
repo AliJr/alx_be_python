@@ -1,5 +1,4 @@
 def safe_divide(numerator, denominator):
-    """Performs division while handling division by zero and non-numeric inputs."""
     try:
         # Convert inputs to float
         numerator = float(numerator)
